@@ -19,6 +19,7 @@
 		1F18370B248CF31500583430 /* NVActivityIndicatorPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F183708248CF31500583430 /* NVActivityIndicatorPresenterTests.swift */; };
 		1F18370C248CF31500583430 /* NVActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F183709248CF31500583430 /* NVActivityIndicatorViewTests.swift */; };
 		1F18370D248CF31500583430 /* NVActivityIndicatorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18370A248CF31500583430 /* NVActivityIndicatorTypeTests.swift */; };
+		9E8AC1532913FC830039C2C7 /* NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AC1522913FC830039C2C7 /* NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift */; };
 		OBJ_102 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* NVActivityIndicatorPresenter.swift */; };
 		OBJ_103 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* NVActivityIndicatorViewable.swift */; };
 		OBJ_105 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "NVActivityIndicatorView::NVActivityIndicatorView::Product" /* NVActivityIndicatorView.framework */; };
@@ -116,6 +117,7 @@
 		1F183708248CF31500583430 /* NVActivityIndicatorPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorPresenterTests.swift; sourceTree = "<group>"; };
 		1F183709248CF31500583430 /* NVActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
 		1F18370A248CF31500583430 /* NVActivityIndicatorTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorTypeTests.swift; sourceTree = "<group>"; };
+		9E8AC1522913FC830039C2C7 /* NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift; sourceTree = "<group>"; };
 		"NVActivityIndicatorView::NVActivityIndicatorView::Product" /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"NVActivityIndicatorView::NVActivityIndicatorViewExtended::Product" /* NVActivityIndicatorViewExtended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorViewExtended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				OBJ_25 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
 				OBJ_26 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
 				OBJ_27 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				9E8AC1522913FC830039C2C7 /* NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift */,
 				OBJ_28 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
 				OBJ_29 /* NVActivityIndicatorAnimationBallZigZag.swift */,
 				OBJ_30 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
@@ -430,6 +433,7 @@
 				TargetAttributes = {
 					1F1836DC248CEFC200583430 = {
 						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = 45WU468FZE;
 						ProvisioningStyle = Automatic;
 					};
 					1F1836FA248CF25600583430 = {
@@ -542,6 +546,7 @@
 				OBJ_73 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
 				OBJ_74 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
 				OBJ_75 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				9E8AC1532913FC830039C2C7 /* NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.swift in Sources */,
 				OBJ_76 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
 				OBJ_77 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
 				OBJ_78 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
@@ -638,6 +643,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45WU468FZE;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -700,6 +706,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 45WU468FZE;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

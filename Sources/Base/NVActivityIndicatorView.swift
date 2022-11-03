@@ -218,6 +218,12 @@ public enum NVActivityIndicatorType: CaseIterable {
      */
     case ballSpinFadeLoader
     /**
+     BallSpinFadeNoScaleLoader.
+
+     - returns: Instance of NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader.
+     */
+    case ballSpinFadeNoScaleLoader
+    /**
      LineSpinFadeLoader.
 
      - returns: Instance of NVActivityIndicatorAnimationLineSpinFadeLoader.
@@ -343,6 +349,8 @@ public enum NVActivityIndicatorType: CaseIterable {
             return NVActivityIndicatorAnimationAudioEqualizer()
         case .circleStrokeSpin:
             return NVActivityIndicatorAnimationCircleStrokeSpin()
+        case .ballSpinFadeNoScaleLoader:
+            return NVActivityIndicatorAnimationBallSpinFadeNoScaleLoader()
         }
     }
 }
@@ -360,7 +368,7 @@ public typealias FadeOutAnimation = (UIView, @escaping () -> Void) -> Void
 public final class NVActivityIndicatorView: UIView {
     // swiftlint:disable identifier_name
     /// Default type. Default value is .BallSpinFadeLoader.
-    public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballSpinFadeLoader
+    public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballSpinFadeNoScaleLoader
 
     /// Default color of activity indicator. Default value is UIColor.white.
     public static var DEFAULT_COLOR = UIColor.white
